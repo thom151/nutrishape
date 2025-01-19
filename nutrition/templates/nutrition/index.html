@@ -1,0 +1,54 @@
+{% extends "nutrition/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <input type="hidden" name="thread" class="thread_id">
+   
+
+    <div class="chatbody">
+
+
+
+        <div class="chatbot">
+            <header> <h2>Chatbot</h2> </header>
+            <div class="chatbox">
+                <div class="chat incoming">
+
+                    <div class="options">
+                        
+                    </div>
+                    
+                </div>
+
+
+
+
+                <div class="chat outgoing">
+                </div>
+            </div>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message"></textarea>
+                <span id="send-btn" class="material-symbols-outlined">send</span>
+            </div>
+        </div>
+    
+
+
+
+        <div class="threads">
+            <ul>
+                {%for thread in all_threads%}
+                <li>{{thread.subject}}</li>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
+    
+{% endblock %}
+
+
+
+{% block script %}
+    <script src="{% static 'nutrition/nutrition.js' %}"></script>
+{% endblock %}
