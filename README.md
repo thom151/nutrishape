@@ -12,7 +12,7 @@ In today’s fast-paced world, finding quick, reliable, and healthy recipes can 
 
 ## 🧐 Overview
 
-![Demo of Nutrishape chatbot](nutrishape.mp4)
+![Demo of Nutrishape chatbot](nutrishape.gif)
 
 ## 🚀 Quick Start
 
