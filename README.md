@@ -10,9 +10,9 @@ In today’s fast-paced world, finding quick, reliable, and healthy recipes can 
 
 ---
 
-##🧐 Overview
+## 🧐 Overview
 
-![Demo of Nutrishape chatbot](nutrishape.gif)
+![Demo of Nutrishape chatbot](nutrishape.mp4)
 
 ## 🚀 Quick Start
 
